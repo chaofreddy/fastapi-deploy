@@ -4,6 +4,8 @@ import joblib
 import uvicorn
 from fastapi import FastAPI, Query
 from pydantic import BaseModel
+from xgboost import XGBRegressor
+
 
 # 2. Create the app object
 app = FastAPI()
